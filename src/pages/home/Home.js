@@ -13,6 +13,11 @@ const Home = () => {
       <div className="slide">
         <SimpleSlider />
       </div>
+      <div className="access">
+        <li>Access Docs</li>
+        <li>Rrack and Trace,</li>
+        <li> Shipment Updates</li>
+      </div>
       <div className="news">
         <div className="news-top">
           <h3>Global Supply Chain News</h3>

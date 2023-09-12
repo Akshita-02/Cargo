@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import img1 from "../../Assets/h-slider-img1.webp";
-import img2 from "../../Assets/1525cd_e9d06c76d7714705bfb90f3f2498d339~mv2.webp";
-import img3 from "../../Assets/1525cd_4aaf1bf70d474666b1ab7dc14839dd86~mv2.webp";
+import img2 from "../../Assets/Truck-Transportation-Service.jpg";
+import img3 from "../../Assets/part-load-truck-transport-service-1000x1000.webp";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import './slider.css'
+import "./slider.css";
 export default class SimpleSlider extends Component {
   render() {
     const settings = {
@@ -29,7 +29,7 @@ export default class SimpleSlider extends Component {
             />
             <div className="slider-content">
               <h4>Supply Chain Solutions</h4>
-              <button>Read more</button>
+              <button>Read more...</button>
             </div>
           </div>
           <div className=" slider1">
@@ -39,15 +39,19 @@ export default class SimpleSlider extends Component {
               style={{ height: "60vh", width: "99vw" }}
             />
             <div className="slider-content">
-              <h4>Supply Chain Solutions</h4>
-              <button>Read more</button>
+              <h4>Helping Businesses Reach Their Goals</h4>
+              <button>Read more...</button>
             </div>
           </div>
           <div className="slider1">
-            <img src={img3} alt="" style={{ height: "60vh", width: "99vw" }} />
+            <img
+              src={img3}
+              alt=""
+              style={{ height: "60vh", width: "99vw", color: "black" }}
+            />
             <div className="slider-content">
-              <h4>Supply Chain Solutions</h4>
-              <button>Read more</button>
+              <h4 style={{ color: "black" }}>Industry Leading Expertise</h4>
+              <button>Read more...</button>
             </div>
           </div>
         </Slider>

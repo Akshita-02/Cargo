@@ -1,6 +1,6 @@
 .slider1{
     position: relative;
-    height: 80vh;
+    height: 60vh;
 }
 
 .slider-content{
@@ -14,4 +14,17 @@
 }
 .slider1 img{
     position: absolute;
+    height: 90vh;
+}
+button{
+
+    border: none;
+    background-color: transparent;
+    font-size: 22px;
+    color: white;
+}
+button:hover{
+    background-color: antiquewhite;
+    color: black;
+    cursor: pointer;
 }
