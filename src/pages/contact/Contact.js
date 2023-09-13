@@ -10,7 +10,9 @@ const Contact = () => {
     <>
       <Navbar />
       <HeadTitle />
-      <h1>Contact Us</h1>
+      <div className="h1">
+        <h1>Contact Us</h1>
+      </div>
       <form>
         <div className="left">
           <h3>Send your inquiry and we'll reply within 24-48 hours.</h3>

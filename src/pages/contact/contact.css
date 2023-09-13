@@ -14,7 +14,7 @@ form {
   }
   
   /* Style the form header */
-  h1 {
+  .h1 {
     text-align: center;
     margin-bottom: 20px;
     color: #333;

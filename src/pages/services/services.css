@@ -10,10 +10,156 @@
 }
 
 .service-heading h1 {
-
     position: absolute;
     top: 19rem;
     left: 22rem;
     color: white;
     font-size: 4rem;
+}
+
+
+
+.services-content {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+
+
+.services-content p {
+    color: rgb(221, 223, 224);
+    max-width: 300px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.services-content h2 {
+    color: black;
+    max-width: 400px;
+    font-size: 30px;
+}
+
+.col12,
+.co2,
+.col3 {
+    display: flex;
+    flex-direction: column;
+    margin: 22px;
+}
+
+
+.service-details p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+    line-height: 3rem;
+    font-weight: bold;
+    color: black;
+}
+
+.service-list h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.service-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 80px 0 80px;
+
+}
+
+.service-card {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    font-size: 22px;
+}
+
+.service-card img {
+    height: 80px;
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+
+.card {
+    max-width: 40rem;
+    margin: 20px;
+    text-align: center;
+}
+
+.card p {
+    align-items: flex-start;
+    text-align: left;
+}
+
+.networking{
+    display: flex;
+    justify-content: center;
+    background-color: #696c6a;
+
+}
+.n-detail{
+    max-width: 30rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+.networking img{
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+
+.flowchart img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80rem;
+    height: 50rem;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .service-heading h1 {
+
+        position: absolute;
+        top: 9rem;
+        left: 2rem;
+        color: white;
+        font-size: 4rem;
+    }
+
+    .services-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* .col12,
+    .co2,
+    .col3 {
+        margin: 22px;
+    } */
+    .services-content p {
+        color: rgb(221, 223, 224);
+        max-width: 100%;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .services-content h2 {
+        color: black;
+        max-width: 100%;
+        font-size: 30px;
+    }
+
 }

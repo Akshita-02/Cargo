@@ -52,7 +52,7 @@ const About = () => {
       <div className="license">
         <div className="licence-content">
           <h3>FMC LICENSED</h3>
-          <p>
+           <p className="one">
             Hana Freight, LLC. DBA Hana International Logistics OTI No. 026502NF
             Hana Group, LLC. OTI No. 030101NF
           </p>
