@@ -1,16 +1,33 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import img1 from "../../Assets/h-slider-img1.webp";
+import img1 from "../../Assets/h-slider-img1.jpg";
 import img2 from "../../Assets/Truck-Transportation-Service.jpg";
 import img3 from "../../Assets/part-load-truck-transport-service-1000x1000.webp";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./slider.css";
+const sliderdata =[
+  {
+    image:"img1",
+    title:"Supply Chain Solutions",
+
+  },
+  {
+    image:"img2",
+    title:"Supply Chain Solutions",
+
+  },
+  {
+    image:"img3",
+    title:"Supply Chain Solutions",
+
+  },
+]
 export default class SimpleSlider extends Component {
   render() {
     const settings = {
       dots: false,
-      arrows: true,
+      arrows: false,
       infinite: true,
       speed: 500,
       autoplay: true,
@@ -39,7 +56,7 @@ export default class SimpleSlider extends Component {
               style={{ height: "60vh", width: "99vw" }}
             />
             <div className="slider-content">
-              <h4>Helping Businesses Reach Their Goals</h4>
+              <h4 style={{ color: "black" }}>Helping Businesses Reach Their Goals</h4>
               <button>Read more...</button>
             </div>
           </div>
